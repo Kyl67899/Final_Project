@@ -57,6 +57,15 @@ html {
     --tw-backdrop-sepia: var(--tw-empty,/*!*/ /*!*/);
 }
 
+body{
+    margin: 0;
+    line-height: inherit;
+}
+
+section{
+    transform: none;
+}
+
 .nav{
     /* display: none; */
     flex: 1 1 0%;
