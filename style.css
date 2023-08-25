@@ -86,10 +86,14 @@ section{
     margin: 0 auto;
 }
 
-.nav__links{
+li{
     list-style-type: none;
 }
 
-.nav__links li:hover{
-    list-style: none;
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
 }
