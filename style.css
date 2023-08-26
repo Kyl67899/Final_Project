@@ -90,9 +90,9 @@ li{
     list-style-type: none;
 }
 
-a:hover{
+/* a:hover{
     text-decoration: underline;
-}
+} */
 
 /* home page */
 
@@ -138,7 +138,7 @@ a:hover{
 
 .nav__links{
     display: flex;
-    color: #0000;
+    color: #000000;
 }
 
 .nav__link{
@@ -151,7 +151,7 @@ a:hover{
     color: var(--color-text);
 }
 
-.link__hover-effect:after{
+/* .link__hover-effect:after{
     content: "";
     position: absolute;
     height: 3px;
@@ -163,6 +163,6 @@ a:hover{
 }
 
 .link__hover-effect:hover:after{
-    width: 100%;
+    width: 80%;
     left: 0;
-}
+} */
