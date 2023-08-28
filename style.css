@@ -105,7 +105,7 @@ li{
 /* home page */
 
 .nav{
-    display: none;
+    /* display: none; */
     flex: 1 1 0%;
     -webkit-box-align: center;
     align-items: center;
