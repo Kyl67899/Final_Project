@@ -195,37 +195,34 @@ button, input, optgroup, select, textarea {
 }
 
 .nav__link--signup--btn:hover{
+    border: 2px solid #4d04a1;
     background-color: #4d04a1;
     cursor: pointer;
 }
 
-/* home */
+/* left column */
 
 .container{
     position: relative;
 }
 
-.leftcolumn__container{
-    margin-left: auto;
-    margin-right: auto;
+.row{
+    width: 100%;
+    margin: 0 auto;
     display: flex;
-    max-width: 1280px;
-    flex-direction: column;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    flex-direction: row;
+    max-width: 1200px;
 }
 
-.full__container{
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    max-width: 1280px;
+.leftcolumn__container{
+    width: 40%;
 }
 
 .leftcolumn{
     position: relative;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
 }
 
 .title{
@@ -241,7 +238,12 @@ button, input, optgroup, select, textarea {
     color: rgb(26 32 44 / var(--tw-text-opacity));
 }
 
-.TwoColumnWithInput__text{
+.btn{
+    padding: 20px 0 20px 0;
+    background-color: #fff;
+}
+
+/* .TwoColumnWithInput__text{
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
     font-size: 1rem;
@@ -268,14 +270,13 @@ button, input, optgroup, select, textarea {
 }
 
 .TwoColumnWithInput__btn{
-    right: 0px;
+    position: absolute;
+    right: -8px;
     top: 0px;
     bottom: 0px;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-right: 0.5rem;
+    margin: 8px 15px 8px 0;
     display: flex;
-    width: 100%;
+    width: 40%;
     -webkit-box-align: center;
     align-items: center;
     -webkit-box-pack: center;
@@ -290,7 +291,7 @@ button, input, optgroup, select, textarea {
     color: rgb(247 250 252 / var(--tw-text-opacity));
     transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
     transition-duration: 300ms;
-}
+} */
 
 .customer__logo p{
     font-size: 0.875rem;
@@ -302,58 +303,38 @@ button, input, optgroup, select, textarea {
 }
 
 .img__logo{
+    display: flex;
     margin-top: 1rem;
     width: 100%;
     opacity: 0.5;
 }
 
-/* .TwoColumnWithInput__text{
-    
+/* right column */
+
+.rightcolumn{
+    width: 60%;
 }
 
-.TwoColumnWithInput__bttn{
-
-}
-
-.TwoColumnWithInput__input__btn{
-    width: 100%;
-    border-radius: 1000px;
-    border-width: 2px;
-    padding-left: 2rem;
-    font-weight: 500;
-    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
-    transition-duration: 300ms;
-}
-
-.TwoColumnWithInput__btn{
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-right: 0.5rem;
+.illustrationcolumn{
     display: flex;
-    width: 100%;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-    border-radius: 9999px;
-    --tw-bg-opacity: 1;
-    background-color: rgb(100 21 255 / var(--tw-bg-opacity));
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    font-weight: 700;
-    --tw-text-opacity: 1;
-    color: rgb(247 250 252 / var(--tw-text-opacity));
-    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
-    transition-duration: 300ms;
-} */
+}
 
-/* {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 32rem;
-    text-align: center;
-} */
+.rightColumn__img{
+    max-width: 745px;
+}
+
+/* Features */
+
+/* Quality work */
+
+/* Get started */
+
+/* Pricing */
+
+/* Testimonials */
+
+/* FAQs */
+
+/* Footer */
+
+/* Responsive */
