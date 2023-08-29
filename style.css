@@ -10,6 +10,7 @@ html {
 h1, h2, h3, h4, h5, h6 {
     font-size: inherit;
     font-weight: inherit;
+}
 
 *, ::before, ::after {
     box-sizing: border-box;
@@ -153,16 +154,31 @@ li{
     display: flex;
     justify-content: space-between;
     padding-right: 15px;
+    font-weight: 600;
 }
 
 .nav__link:hover{
     color: var(--color-text);
 }
 
+.nav__link--signup--btn{
+    color: #fff;
+    font-weight: 600;
+    background-color: #7700ff;
+    border: 2px solid #7700ff;
+    border-radius: 10000px;
+    padding: 3px 15px;
+}
+
+.nav__link--signup--btn:hover{
+    background-color: #4d04a1;
+    cursor: pointer;
+}
+
 /*  */
  
 
-/*.TwoColumnWithInput__Row{
+.TwoColumnWithInput__Row{
     width: 60%;
     max-width: 1200px;
     margin: 0 auto;
@@ -197,4 +213,4 @@ li{
 
 .TwoColumnWithInput__btn{
     
-} */
+}
