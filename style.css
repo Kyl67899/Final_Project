@@ -73,9 +73,23 @@ section{
     transform: none;
 }
 
-/* blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
+blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
     margin: 0px;
-} */
+}
+
+button, select {
+    text-transform: none;
+}
+
+button, [type="button"], [type="reset"], [type="submit"] {
+    appearance: button;
+    background-color: transparent;
+    background-image: none;
+}
+
+button, [role="button"] {
+    cursor: pointer;
+}
 
 /* reusable */
 
@@ -113,7 +127,7 @@ button, input, optgroup, select, textarea {
     padding: 0px;
 }
 
-/* home page */
+/* nav */
 
 .nav{
     /* display: none; */
@@ -185,17 +199,36 @@ button, input, optgroup, select, textarea {
     cursor: pointer;
 }
 
-/*  */
- 
-.TwoColumnWithInput__Row{
-    width: 60%;
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
+/* home */
+
+.container{
+    position: relative;
 }
 
-.TwoColumnWithInput__Title{
+.leftcolumn__container{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    max-width: 1280px;
+    flex-direction: column;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.full__container{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    max-width: 1280px;
+}
+
+.leftcolumn{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title{
     font-family: Inter, system-ui, 'Segoe UI', "Roboto", "Oxygen", "Ubuntu", "Cantarell", 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 48px;
     font-weight: 700;
@@ -209,6 +242,72 @@ button, input, optgroup, select, textarea {
 }
 
 .TwoColumnWithInput__text{
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    font-size: 1rem;
+}
+
+.TwoColumnWithInput__bttn{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 28rem;
+    text-align: center;
+}
+
+.TwoColumnWithInput__input__btn{
+    width: 100%;
+    border-radius: 9999px;
+    border-width: 2px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    font-weight: 500;
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-duration: 300ms;
+}
+
+.TwoColumnWithInput__btn{
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 0.5rem;
+    display: flex;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 9999px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(100 21 255 / var(--tw-bg-opacity));
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 700;
+    --tw-text-opacity: 1;
+    color: rgb(247 250 252 / var(--tw-text-opacity));
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-duration: 300ms;
+}
+
+.customer__logo p{
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    --tw-text-opacity: 1;
+    color: rgb(160 174 192 / var(--tw-text-opacity));
+}
+
+.img__logo{
+    margin-top: 1rem;
+    width: 100%;
+    opacity: 0.5;
+}
+
+/* .TwoColumnWithInput__text{
     
 }
 
@@ -249,4 +348,12 @@ button, input, optgroup, select, textarea {
     color: rgb(247 250 252 / var(--tw-text-opacity));
     transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
     transition-duration: 300ms;
-}
+} */
+
+/* {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 32rem;
+    text-align: center;
+} */
