@@ -238,15 +238,15 @@ button, input, optgroup, select, textarea {
     color: rgb(26 32 44 / var(--tw-text-opacity));
 }
 
-.btn{
-    padding: 20px 0 20px 0;
-    background-color: #fff;
-}
-
-/* .TwoColumnWithInput__text{
+.TwoColumnWithInput__text{
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
     font-size: 1rem;
+}
+
+.btn{
+    padding: 20px 0 20px 0;
+    background-color: #fff;
 }
 
 .TwoColumnWithInput__bttn{
@@ -291,7 +291,7 @@ button, input, optgroup, select, textarea {
     color: rgb(247 250 252 / var(--tw-text-opacity));
     transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
     transition-duration: 300ms;
-} */
+}
 
 .customer__logo p{
     font-size: 0.875rem;
