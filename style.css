@@ -249,6 +249,55 @@ button, input, optgroup, select, textarea {
     background-color: #fff;
 }
 
+.input__btn{
+    position: relative;
+    max-width: 28rem;
+    padding: 15px 12px 17px 5px;
+    border: 2px solid #000000;
+    border-radius: 8px;
+}
+
+.input__btn input{
+    width: 100%;
+    border-radius: 9999px;
+    border-width: 2px;
+    /* padding: 20px 192px 20px 32px; */
+    font-weight: 500;
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-duration: 300ms;
+}
+
+.btn__btn{
+    /* position: absolute;
+    border: 3px solid #4d2dec;
+    border-radius: 3px;
+    left: 136px;
+    top: 312px; */
+
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 0.5rem;
+    display: flex;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 9999px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(100 21 255 / var(--tw-bg-opacity));
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 700;
+    --tw-text-opacity: 1;
+    color: rgb(247 250 252 / var(--tw-text-opacity));
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-duration: 300ms;
+}
+
 .TwoColumnWithInput__bttn{
     position: relative;
     margin-left: auto;
