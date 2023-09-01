@@ -371,6 +371,12 @@ button, input, optgroup, select, textarea {
     padding: 80px 0;
 }
 
+.row__container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 /* Quality work */
 
 /* Get started */
