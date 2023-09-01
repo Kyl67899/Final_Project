@@ -367,7 +367,9 @@ button, input, optgroup, select, textarea {
 
 /* Features */
 
-
+.image__container{
+    padding: 80px 0;
+}
 
 /* Quality work */
 
