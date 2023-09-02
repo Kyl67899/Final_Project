@@ -94,7 +94,7 @@ button, [role="button"] {
 /* reusable */
 
 .app{
-    min-height: 100vh;
+    min-height: 72vh;
     overflow: hidden;
     padding: 2rem;
     font-family: Inter, system-ui;
@@ -381,6 +381,47 @@ button, input, optgroup, select, textarea {
     display: flex;
     flex-wrap: wrap;
 }
+
+.image__subheading{
+    font-size: 20px;
+    font-weight: 500;
+    font-variant-caps: all-petite-caps;
+    text-align: center;
+}
+
+.image__heading{
+    font-size: 48px;
+    text-align: center;
+}
+
+.image_description{
+    text-align: center;
+    line-break: auto;
+}
+
+.vertical__spacer{
+    margin-top: 2.5rem;
+    width: 100%;
+}
+
+.services{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sideimage__card{
+    display: flex;
+    width: calc(100%/3);
+}
+
+.textcontainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+
 
 /* Quality work */
 
