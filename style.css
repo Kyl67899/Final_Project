@@ -336,15 +336,19 @@ button, input, optgroup, select, textarea {
 }
 
 .image__subheading{
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 700;
     font-variant-caps: all-petite-caps;
-    /* text-align: center; */
+    text-align: center;
 }
 
 .image__heading{
+    margin: 16px 0 0;
     font-size: 48px;
-    /* text-align: center; */
+    font-weight: 700;
+    /* font-variant-caps: all-small-caps; */
+    text-align: center;
+    width: 100%;
 }
 
 .image_description{
@@ -370,17 +374,15 @@ button, input, optgroup, select, textarea {
 }
 
 .sideimage__card{
-    display: flex;
-    /* flex-direction: row; */
     margin-left: 1rem;
     margin-right: 1rem;
+    display: flex;
     height: 100%;
+    flex-direction: row;
     -webkit-box-align: center;
     align-items: center;
     padding: 2rem 0.5rem;
     text-align: center;
-    margin: 0 16px;
-    padding: 32px 8px;
 }
 
 .imageContainer{
@@ -389,6 +391,10 @@ button, input, optgroup, select, textarea {
     border-width: 1px;
     padding: 20px;
     text-align: center;
+}
+
+.image_description{
+    padding: 2px 45px 2px 45px;
 }
 
 .textcontainer{
