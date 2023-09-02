@@ -328,26 +328,23 @@ button, input, optgroup, select, textarea {
 }
 
 .row__container{
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-}
-
-.row__container{
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .image__subheading{
     font-size: 20px;
     font-weight: 500;
     font-variant-caps: all-petite-caps;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .image__heading{
     font-size: 48px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .image_description{
