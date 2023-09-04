@@ -567,7 +567,7 @@ header {
 }
 
 .pricing__plan {
-    width: calc(98% / 3);
+    width: calc(98%/3);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -576,7 +576,7 @@ header {
     border-radius: 10px;
 }
 
-.pricing__plan2{
+.pricing__plan2 {
     width: calc(98% / 3);
     display: flex;
     flex-direction: column;
