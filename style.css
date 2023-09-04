@@ -465,7 +465,6 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 .steps__path {
@@ -477,7 +476,6 @@ header {
     font-size: 20px;
     font-weight: 600;
     line-height: 1;
-
 }
 
 .steps__path--paragraph {
@@ -497,7 +495,6 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 .values__reasons {
@@ -567,7 +564,6 @@ header {
     padding-top: 40px;
     display: flex;
     justify-content: space-between;
-
 }
 
 .pricing__plan {
