@@ -30,9 +30,7 @@ header {
     padding: 24px;
 }
 
-/*
-section
-*/
+/* section */
 .section__name {
     font-weight: 700;
     text-transform: uppercase;
@@ -95,11 +93,7 @@ section
     filter: brightness(0.9);
 }
 
-/* 
-
-nav 
-
-*/
+/* nav */
 
 .head__nav {
     display: flex;
@@ -245,11 +239,8 @@ nav
     padding: 10px;
 }
 
-/* 
+/* header */
 
-header  
-
-*/
 .container {
     margin: 0 auto;
     padding: 96px 0;
@@ -350,11 +341,7 @@ header
     margin-top: 5vw;
 }
 
-/* 
-
-features 
-
-*/
+/* features */
 #features {
     height: 100vh;
 }
@@ -410,11 +397,7 @@ features
     color: #7c8ba1;
 }
 
-/*
-
-quality work
-
-*/
+/* Quality work */
 
 #work {
     height: 100vh;
@@ -445,11 +428,7 @@ quality work
     width: 100%;
 }
 
-/* 
-
-step 
-
-*/
+/* Steps */
 .steps__container {
     display: flex;
     flex-direction: row;
@@ -511,11 +490,7 @@ step
     color: rgb(113 128 150);
 }
 
-/* 
-
-value 
-
-*/
+/* Value */
 
 .value__description {
     max-width: 50%;
@@ -579,11 +554,7 @@ value
     max-width: 50%;
 }
 
-/* 
-
-pricing
-
-*/
+/* pricing */
 
 .pricing__name {
     text-align: center;
@@ -774,11 +745,7 @@ pricing
     font-size: 14px;
 }
 
-/* 
-
-footer
-
-*/
+/* footer */
 footer {
     background-color: #6415FF;
     height: 50vh;
@@ -856,17 +823,9 @@ footer {
 }
 
 
-/* 
-
-media queries
-
-*/
+/* media queries */
 
 @media (max-width: 992px) {
-
-
-
-
 
     .container {
         padding: 50px 0;
@@ -921,11 +880,7 @@ media queries
         width: 100%;
     }
 
-    /*
-    
-    featues
-    
-    */
+    /* features */
     .features__service {
         width: 50%;
     }
@@ -938,11 +893,7 @@ media queries
         height: fit-content;
     }
 
-    /* 
-
-    plans
-
-    */
+    /* Plans */
     .pricing__plans {
         display: flex;
         flex-direction: column;
@@ -968,27 +919,13 @@ media queries
     .head__subtitle {
         max-width: 90%;
     }
-
-
-    /*
-
-features
-
-*/
-
+    
+    /* features */
     .features__service {
         width: 100%;
     }
 
-
-
-    /* 
-
-    quality-work
-    
-    */
-
-
+    /* quality work */
     #work {
         height: fit-content;
     }
@@ -1021,11 +958,7 @@ features
         margin-top: 20px;
     }
 
-    /*
-
-    STEPS
-
-    */
+    /* steps */
     #steps {
         height: fit-content;
     }
@@ -1065,11 +998,7 @@ features
         text-align: center;
     }
 
-    /*
-    
-    values
-
-    */
+    /* values */
     #values {
         height: fit-content;
     }
@@ -1102,11 +1031,7 @@ features
         margin-bottom: 20px;
     }
 
-    /*
-
-    footer
-
-    */
+    /* footer */
 
     footer {
         height: fit-content;
