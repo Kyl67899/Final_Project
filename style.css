@@ -337,25 +337,22 @@ header{
     margin-top: 5vw;
 }
 
-
-
-
-
 /* features */
-#features {
+
+#features{
     height: 100vh;
 }
 
-.features__head {
+.features__head{
     margin-bottom: 20px;
 }
 
-.features__description {
+.features__description{
     margin: 0 auto;
     text-align: center;
 }
 
-.features__services {
+.features__servcies{
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
@@ -363,61 +360,62 @@ header{
     margin-top: 32px;
 }
 
-.features__service {
+.features__service{
     width: calc(100%/3);
     display: flex;
     padding: 32px 10px;
 }
 
-.features__service--img {
+.features__service--img{
     border-radius: 50%;
     border: solid 1px rgb(226, 232, 240);
     display: block;
-    align-content: center;
+    align-items: center;
     padding: 20px;
 }
 
-.features__text--container {
+.features__text--container{
     margin-left: 16px;
     margin-top: 4px;
 }
 
-.features__text--title {
+.features__text--title{
     font-size: 24px;
     font-weight: 700;
     letter-spacing: 0.5px;
-    color: #243e63;
+    color: var(--title);
 }
 
-.features__text--para {
+.features__text--para{
     font-size: 16px;
     margin-top: 16px;
     font-weight: 500;
     line-height: 1.8;
-    color: #7c8ba1;
+    color: var(--text-color);
 }
 
-/* quality work */
+/* Quality work */
 
-#work {
+#work{
     height: 100vh;
 }
 
-.work__container {
+.work__container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
 }
+
+.work__description{
+    max-width: 47%;
+}
+
+
 
 .work__title {
     margin-top: 16px;
     text-align: left;
-}
-
-.work__description {
-    max-width: 47%;
 }
 
 .work__img--wrap {
