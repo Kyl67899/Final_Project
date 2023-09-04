@@ -674,23 +674,23 @@ header {
     color: #fff;
 }
 
-.pricing__plan--benefit {
+.pricing__plan--benefit{
     margin-top: 1.25rem;
     font-weight: 500;
     color: rgb(160 174 192);
 }
 
-.pricing__plan--benefit2 {
+.pricing__plan--benefit2{
     margin-top: 1.25rem;
     font-weight: 500;
     color: #fff;
 }
 
-.pricing__plan--list {
+.pricing__plan--list{
     padding-bottom: 32px;
 }
 
-.pricing__plan--button {
+.pricing__plan--button{
     border-radius: 9999px;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -702,7 +702,7 @@ header {
     background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
 }
 
-.pricing__plan--button2 {
+.pricing__plan--button2{
     border-radius: 9999px;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -714,7 +714,7 @@ header {
     background: #fff
 }
 
-.pricing__plan--button3 {
+.pricing__plan--button3{
     border-radius: 9999px;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -726,11 +726,11 @@ header {
     background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }
 
-.pricing__plan--links {
+.pricing__plan--links{
     padding: 20px 16px;
 }
 
-.pricing__plan--link {
+.pricing__plan--link{
     color: #f7fafc;
     font-size: 14px;
 }
